@@ -406,7 +406,7 @@ textarea.input {
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 35px 200px;
+	padding: 35px 200px!important;
 	background: transparent;
 	z-index: 100;
   }
