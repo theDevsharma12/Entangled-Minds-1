@@ -8,6 +8,55 @@
   filter: brightness(100%);
 }
 
+/* ----------------------------- */
+.founders-section , .founder-heading{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.founder-heading{
+  margin-bottom: 1rem;
+}
+.founders{
+  display: flex;
+  flex-direction: row;
+}
+.founders img{
+    height: 28rem;
+    width: 28rem;
+    margin: 2rem;
+}
+
+@media(max-width:1025px){
+  .founders img{
+    height: 25rem;
+    width: 25rem;
+    margin: 1rem;
+  }
+  .founder-heading h1{
+    font-size: 2rem;
+  }
+}
+
+@media(max-width:790px){
+  .founders img{
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+  }
+}
+
+@media(max-width:750px){
+  .founders{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* ----------------------------- */
+
 @media(max-width:1025px){
   .col-lg-6  video{
     width: 98%;
