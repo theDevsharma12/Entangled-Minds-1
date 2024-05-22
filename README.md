@@ -33,7 +33,7 @@ Join us in fostering a culture where mental health is not just a priority but a 
 
 ## 📜 License
 
-This project is licensed under the terms specified in [this license](https://github.com/theDevsharma12/licence).
+This project is licensed under the terms specified in MIT License.
 
 ## 📞 Contact Information
 
